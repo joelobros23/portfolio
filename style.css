@@ -1,0 +1,96 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: normal-font;
+}
+
+@font-face {
+    font-family: normal-font;
+    src: url(fonts/FontsFree-Net-Avenir-Light.ttf);
+}
+
+@font-face {
+    font-family: big-font;
+    src: url(fonts/AvenirLTStd-Black.otf);
+}
+
+/* -- -- -- -  Header - - - - - - -- - */
+nav {
+    background-color: #333b50;
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 37vw;
+}
+
+nav li {
+    float: left;
+    padding: 10px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #38ff26;
+    padding: 30px 16px;
+    text-align: center;
+}
+
+nav li:hover {
+    color: aliceblue;
+    background-color: #80788d;
+    border-radius: 0;
+}
+
+/*--- - -   -   -   -    BODY - -   -   -   -   -   -   -    ---*/
+
+#home-contents {
+    background-image: url(images/joelo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+    background-position-x:center;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.joelo-lab {
+    color: aliceblue;
+    position: relative;
+    top: 10vw;
+    left: 35vw;
+    font-size: 4vw;
+    font-family: big-font;
+    letter-spacing: 20px;
+}
+
+.summary {
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #333B50;
+    position: absolute;
+    left: 30vw;
+    top: 40vw;
+    padding: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.laptop-background {
+    background-image: url(images/working.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:static;
+    width: 100vw;
+    height: 50vw;
+    background-position-x:center;
+    margin: 0px;
+    margin-right: 0px;
+}
